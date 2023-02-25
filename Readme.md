@@ -4,7 +4,7 @@ Demonstrating `Hexagonal Architecture` in GoLang.
 
 ## The application layer
 
-Here are the *usecases of the application layer* in *large scale distributed systems* -
+Here are the *`usecases of the application layer`* in *`large scale distributed systems`* -
 
 - **Enforcing security and authorization**: The application layer can implement authentication and authorization checks, and ensure that only authorized requests are forwarded to the business logic layer. This helps to protect the application against unauthorized access and data breaches.
 
