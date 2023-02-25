@@ -1,0 +1,13 @@
+syntax= "proto3";
+
+package math;
+option go_package="./generated/proto";
+
+message OperationResponse {
+    int32 answer= 1;
+}
+
+message Operands {
+    int32 a= 1;
+    int32 b= 2;
+}
